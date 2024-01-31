@@ -25,6 +25,14 @@ export default function Home() {
               Your library
             </a>
           </nav>
+
+          <nav className="mt-10 pt-10 border-t border-zinc-800 flex flex-col gap-3">
+            <a href="" className='text-sm text-zinc-400 hover:text-zinc-100'>Good Vibes</a>
+            <a href="" className='text-sm text-zinc-400 hover:text-zinc-100'>Night Moves</a>
+            <a href="" className='text-sm text-zinc-400 hover:text-zinc-100'>Full Moon Fever</a>
+            <a href="" className='text-sm text-zinc-400 hover:text-zinc-100'>Grand Theft Auto Radio</a>
+          </nav>
+
         </aside>
         <main className="flex-1 p-6">
           main
