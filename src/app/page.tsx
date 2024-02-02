@@ -53,42 +53,67 @@ export default function Home() {
               <strong>Aerosmith - Nine Lives</strong>
               <button className="w-12 h-12 flex items-center justify-center pl-1 bg-green-500 rounded-full text-black ml-auto mr-4 invisible group-hover:visible">
                 <Play />
-              </button>              
+              </button>
             </a>
             <a href="#" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors">
               <Image src="/Aerosmith_nine_lives.jpg" alt="Aerosmith album" width={104} height={104}></Image>
               <strong>Aerosmith - Nine Lives</strong>
               <button className="w-12 h-12 flex items-center justify-center pl-1 bg-green-500 rounded-full text-black ml-auto mr-4 invisible group-hover:visible">
                 <Play />
-              </button>              
+              </button>
             </a>
             <a href="#" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors">
               <Image src="/Aerosmith_nine_lives.jpg" alt="Aerosmith album" width={104} height={104}></Image>
               <strong>Aerosmith - Nine Lives</strong>
               <button className="w-12 h-12 flex items-center justify-center pl-1 bg-green-500 rounded-full text-black ml-auto mr-4 invisible group-hover:visible">
                 <Play />
-              </button>              
+              </button>
             </a>
             <a href="#" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors">
               <Image src="/Aerosmith_nine_lives.jpg" alt="Aerosmith album" width={104} height={104}></Image>
               <strong>Aerosmith - Nine Lives</strong>
               <button className="w-12 h-12 flex items-center justify-center pl-1 bg-green-500 rounded-full text-black ml-auto mr-4 invisible group-hover:visible">
                 <Play />
-              </button>              
+              </button>
             </a>
             <a href="#" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors">
               <Image src="/Aerosmith_nine_lives.jpg" alt="Aerosmith album" width={104} height={104}></Image>
               <strong>Aerosmith - Nine Lives</strong>
               <button className="w-12 h-12 flex items-center justify-center pl-1 bg-green-500 rounded-full text-black ml-auto mr-4 invisible group-hover:visible">
                 <Play />
-              </button>              
+              </button>
             </a>
             <a href="#" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors">
               <Image src="/Aerosmith_nine_lives.jpg" alt="Aerosmith album" width={104} height={104}></Image>
               <strong>Aerosmith - Nine Lives</strong>
               <button className="w-12 h-12 flex items-center justify-center pl-1 bg-green-500 rounded-full text-black ml-auto mr-4 invisible group-hover:visible">
                 <Play />
-              </button>              
+              </button>
+            </a>
+          </div>
+
+          <h2 className="font-semibold text-2xl mt-10">Recommended for you</h2>
+
+          <div className="grid grid-cols-8 gap-4 mt-4">
+            <a href="#" className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
+              <Image src="/Aerosmith_nine_lives.jpg" className="w-full" width={120} height={120} alt="Aerosmith - Nine Lives Album"></Image>
+              <strong className="font-semibold">Name</strong>
+              <span className="font text-sm text-zinc-400">Description ahdoashd akonasdkonas </span>
+            </a>
+            <a href="#" className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
+              <Image src="/Aerosmith_nine_lives.jpg" className="w-full" width={120} height={120} alt="Aerosmith - Nine Lives Album"></Image>
+              <strong className="font-semibold">Name</strong>
+              <span className="font text-sm text-zinc-400">Description ahdoashd akonasdkonas </span>
+            </a>
+            <a href="#" className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
+              <Image src="/Aerosmith_nine_lives.jpg" className="w-full" width={120} height={120} alt="Aerosmith - Nine Lives Album"></Image>
+              <strong className="font-semibold">Name</strong>
+              <span className="font text-sm text-zinc-400">Description ahdoashd akonasdkonas </span>
+            </a>
+            <a href="#" className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
+              <Image src="/Aerosmith_nine_lives.jpg" className="w-full" width={120} height={120} alt="Aerosmith - Nine Lives Album"></Image>
+              <strong className="font-semibold">Name</strong>
+              <span className="font text-sm text-zinc-400">Description ahdoashd akonasdkonas </span>
             </a>
           </div>
 
