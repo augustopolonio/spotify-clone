@@ -1,9 +1,9 @@
 ---
 name: Feature request
 about: Suggest an idea for this project
-title: ''
+title: "[FEAT]"
 labels: feature
-assignees: ''
+assignees: augustopolonio
 
 ---
 
