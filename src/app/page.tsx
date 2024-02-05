@@ -9,7 +9,7 @@ export default function Home() {
           <div className="flex items-center gap-2">
             <div className="w-3 h-3 bg-red-500 rounded-full"></div>
             <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>
-            <div className="w-3 h-3 bg-green-500 rounded-full"></div>
+            <div className="w-3 h-3 bg-green-500 rounded-full grow-0 shrink-0"></div>
           </div>
 
           <nav className="space-y-5 mt-10">
@@ -51,42 +51,42 @@ export default function Home() {
             <a href="#" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors">
               <Image src="/Aerosmith_nine_lives.jpg" alt="Aerosmith album" width={104} height={104}></Image>
               <strong>Aerosmith - Nine Lives</strong>
-              <button className="w-12 h-12 flex items-center justify-center pl-1 bg-green-500 rounded-full text-black ml-auto mr-4 invisible group-hover:visible">
+              <button className="w-12 h-12 flex items-center justify-center pl-1 bg-green-500 rounded-full grow-0 shrink-0 text-black ml-auto mr-4 invisible group-hover:visible">
                 <Play />
               </button>
             </a>
             <a href="#" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors">
               <Image src="/Aerosmith_nine_lives.jpg" alt="Aerosmith album" width={104} height={104}></Image>
               <strong>Aerosmith - Nine Lives</strong>
-              <button className="w-12 h-12 flex items-center justify-center pl-1 bg-green-500 rounded-full text-black ml-auto mr-4 invisible group-hover:visible">
+              <button className="w-12 h-12 flex items-center justify-center pl-1 bg-green-500 rounded-full grow-0 shrink-0 text-black ml-auto mr-4 invisible group-hover:visible">
                 <Play />
               </button>
             </a>
             <a href="#" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors">
               <Image src="/Aerosmith_nine_lives.jpg" alt="Aerosmith album" width={104} height={104}></Image>
               <strong>Aerosmith - Nine Lives</strong>
-              <button className="w-12 h-12 flex items-center justify-center pl-1 bg-green-500 rounded-full text-black ml-auto mr-4 invisible group-hover:visible">
+              <button className="w-12 h-12 flex items-center justify-center pl-1 bg-green-500 rounded-full grow-0 shrink-0 text-black ml-auto mr-4 invisible group-hover:visible">
                 <Play />
               </button>
             </a>
             <a href="#" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors">
               <Image src="/Aerosmith_nine_lives.jpg" alt="Aerosmith album" width={104} height={104}></Image>
               <strong>Aerosmith - Nine Lives</strong>
-              <button className="w-12 h-12 flex items-center justify-center pl-1 bg-green-500 rounded-full text-black ml-auto mr-4 invisible group-hover:visible">
+              <button className="w-12 h-12 flex items-center justify-center pl-1 bg-green-500 rounded-full grow-0 shrink-0 text-black ml-auto mr-4 invisible group-hover:visible">
                 <Play />
               </button>
             </a>
             <a href="#" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors">
               <Image src="/Aerosmith_nine_lives.jpg" alt="Aerosmith album" width={104} height={104}></Image>
               <strong>Aerosmith - Nine Lives</strong>
-              <button className="w-12 h-12 flex items-center justify-center pl-1 bg-green-500 rounded-full text-black ml-auto mr-4 invisible group-hover:visible">
+              <button className="w-12 h-12 flex items-center justify-center pl-1 bg-green-500 rounded-full grow-0 shrink-0 text-black ml-auto mr-4 invisible group-hover:visible">
                 <Play />
               </button>
             </a>
             <a href="#" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors">
               <Image src="/Aerosmith_nine_lives.jpg" alt="Aerosmith album" width={104} height={104}></Image>
               <strong>Aerosmith - Nine Lives</strong>
-              <button className="w-12 h-12 flex items-center justify-center pl-1 bg-green-500 rounded-full text-black ml-auto mr-4 invisible group-hover:visible">
+              <button className="w-12 h-12 flex items-center justify-center pl-1 bg-green-500 rounded-full grow-0 shrink-0 text-black ml-auto mr-4 invisible group-hover:visible">
                 <Play />
               </button>
             </a>
