@@ -1,7 +1,7 @@
 import { Footer } from '@/components/Footer';
 import { NavButtons } from '@/components/NavButtons';
-import { Playlist } from '@/components/Playlist';
-import { PlaylistTop } from '@/components/PlaylistTop';
+import { Playlists } from '@/components/Playlists/Playlists';
+import { TopPlaylists } from '@/components/Playlists/TopPlaylists';
 import { Sidebar } from '@/components/Sidebar';
 
 export default function Home() {
@@ -13,10 +13,10 @@ export default function Home() {
 
         <main className="flex-1 p-6">
           <NavButtons />          
-          <PlaylistTop title="Good afternoon" />
-          <Playlist title="Recommended for you" />
-          <Playlist title="Recommended for you 2" />
-          <Playlist title="Recommended for you 3" />
+          <TopPlaylists title="Good afternoon" />
+          <Playlists title="Recommended for you" />
+          <Playlists title="Recommended for you 2" />
+          <Playlists title="Recommended for you 3" />
         </main>
       </div>
 
