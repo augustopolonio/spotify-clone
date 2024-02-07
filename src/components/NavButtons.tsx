@@ -10,5 +10,5 @@ export function NavButtons() {
         <ChevronRight />
       </button>
     </div>
-  );
+  )
 }

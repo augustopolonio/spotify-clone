@@ -1,18 +1,17 @@
-import { Footer } from '@/components/Footer';
-import { NavButtons } from '@/components/NavButtons';
-import { Playlists } from '@/components/Playlists/Playlists';
-import { TopPlaylists } from '@/components/Playlists/TopPlaylists';
-import { Sidebar } from '@/components/Sidebar';
+import { Footer } from '@/components/Footer'
+import { NavButtons } from '@/components/NavButtons'
+import { Playlists } from '@/components/Playlists/Playlists'
+import { TopPlaylists } from '@/components/Playlists/TopPlaylists'
+import { Sidebar } from '@/components/Sidebar'
 
 export default function Home() {
   return (
     <div className="h-screen flex flex-col">
-      <div className="flex flex-1">        
-        
+      <div className="flex flex-1">
         <Sidebar />
 
         <main className="flex-1 p-6">
-          <NavButtons />          
+          <NavButtons />
           <TopPlaylists title="Good afternoon" />
           <Playlists title="Recommended for you" />
           <Playlists title="Recommended for you 2" />
@@ -20,8 +19,7 @@ export default function Home() {
         </main>
       </div>
 
-      <Footer />      
-      
+      <Footer />
     </div>
-  );
+  )
 }
