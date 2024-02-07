@@ -7,9 +7,9 @@ interface TopPlaylistsProps {
 export function TopPlaylists({ title }: TopPlaylistsProps) {
   return (
     <div>
-      <h1 className="font-semibold text-3xl mt-10">{title}</h1>
+      <h1 className="mt-10 text-3xl font-semibold">{title}</h1>
 
-      <div className="grid grid-cols-3 gap-4 mt-4">
+      <div className="mt-4 grid grid-cols-3 gap-4">
         <TopPlaylist
           src="/Aerosmith_nine_lives.jpg"
           title="Aerosmith - Nine Lives"

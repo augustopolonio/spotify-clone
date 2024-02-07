@@ -14,7 +14,7 @@ import Image from 'next/image'
 
 export function Footer() {
   return (
-    <footer className="bg-zinc-800 border-t border-zinc-700 p-3 flex items-center justify-between">
+    <footer className="flex items-center justify-between border-t border-zinc-700 bg-zinc-800 p-3">
       {/* Playing now */}
       <div className="flex items-center gap-3">
         <Image
@@ -38,7 +38,7 @@ export function Footer() {
           <button>
             <SkipBackIcon size={20}></SkipBackIcon>
           </button>
-          <button className="w-10 h-10 flex items-center justify-center bg-white rounded-full pl-1 text-black">
+          <button className="flex h-10 w-10 items-center justify-center rounded-full bg-white pl-1 text-black">
             <Play></Play>
           </button>
           <button>

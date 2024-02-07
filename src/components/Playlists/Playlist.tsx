@@ -10,7 +10,7 @@ export function Playlist({ title, src, description }: PlaylistProps) {
   return (
     <a
       href="#"
-      className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10"
+      className="flex flex-col gap-2 rounded-md bg-white/5 p-3 hover:bg-white/10"
     >
       <Image
         src={src}

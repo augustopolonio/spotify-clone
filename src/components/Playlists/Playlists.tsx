@@ -7,9 +7,9 @@ interface PlaylistsProps {
 export function Playlists({ title }: PlaylistsProps) {
   return (
     <div>
-      <h2 className="font-semibold text-2xl mt-10">{title}</h2>
+      <h2 className="mt-10 text-2xl font-semibold">{title}</h2>
 
-      <div className="grid grid-cols-5 gap-4 mt-4">
+      <div className="mt-4 grid grid-cols-5 gap-4">
         <Playlist
           title="Daily Mix 1"
           src="/Aerosmith_nine_lives.jpg"
